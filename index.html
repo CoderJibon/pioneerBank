@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pionner Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="pioneerBank">
+       <div class="container">
+
+         <div id="loginform">
+             <div class="heading">
+                 <h1>Pionner Bank</h1>
+             </div>
+             <div class="ligonformarea">
+                 <input type="text" placeholder="Name">
+                 <input type="password" placeholder="password">
+                 <input id="submit" type="submit" value="Log in">
+             </div>
+         </div>
+
+         <div id="dashboard">
+             <div class="transcount">
+                 <div class="deposit">
+                     <h3>Deposit</h3>
+                     <h2>$ <span id="counrentDeposit">00</span></h2>
+                 </div>
+                 <div class="withdraw">
+                    <h3>Withdraw</h3>
+                    <h2>$ <span id="counrentWithdraw">00</span></h2>
+                </div>
+                <div class="balance">
+                    <h3>Balance</h3>
+                    <h2>$ <span id="counrentBalance">1200</span></h2>
+                </div>
+             </div>
+
+             <div class="dashboardinputandoutpotbox">
+                 <div class="input_field_left">
+                     <h2>Deposit</h2>
+                     <input id="despotamount" type="text" placeholder="$ amount you want to Deposit">
+                     <button id="Depositbtn" class="green">Deposit</button>
+                 </div>
+                 <div class="input_field_left">
+                    <h2>Withdraw</h2>
+                    <input id="withdrawamount" type="text" placeholder="$ amount you want to withdraw">
+                    <button id="withdrawbtn" class="green">withdraw</button>
+                </div>
+             </div>
+
+         </div>
+
+       </div>
+   </div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
